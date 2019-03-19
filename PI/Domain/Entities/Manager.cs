@@ -8,6 +8,7 @@ namespace Domain.Entities
 {
    public class Manager
     {
+        public int Managerid { get; set; }
         public virtual ICollection<Client> Clients { get; set; }
     }
 }

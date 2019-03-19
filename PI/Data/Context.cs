@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -17,8 +18,8 @@ namespace Data
            // modelBuilder.Configurations.Add(new DocumentConfiguration());
             //modelBuilder.Configurations.Add(new EmpruntConfiguration());
             //TPT Stratégie d'heritage
-            //modelBuilder.Entity<Adherant>().ToTable("Adherant");
-            //modelBuilder.Entity<Professeur>().ToTable("Professeur");
+            modelBuilder.Entity<Client>().ToTable("Client");
+            modelBuilder.Entity<Document>().ToTable("Document");
             //modelBuilder.Entity<Etudiant>().ToTable("Etudiant");
         }
 
