@@ -19,7 +19,7 @@ namespace Data
             //modelBuilder.Configurations.Add(new EmpruntConfiguration());
             //TPT Stratégie d'heritage
             modelBuilder.Entity<Client>().ToTable("Client");
-            modelBuilder.Entity<Document>().ToTable("Document");
+            modelBuilder.Entity<Document>().ToTable("Document");//essai
             //modelBuilder.Entity<Etudiant>().ToTable("Etudiant");
         }
 
