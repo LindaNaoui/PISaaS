@@ -54,6 +54,9 @@ namespace Web.Models
         public string Email { get; set; }
 
         [Required]
+        public string Username { get; set; }
+
+        [Required]
         [DataType(DataType.Password)]
         [Display(Name = "Mot de passe")]
         public string Password { get; set; }
@@ -68,7 +71,11 @@ namespace Web.Models
         [EmailAddress]
         [Display(Name = "Courrier électronique")]
         public string Email { get; set; }
-
+        [Required]
+        public string DisplayName { get; set; }
+        public string Avatar { get; set; }
+        [Required]
+        public string Username { get; set; }
         [Required]
         [StringLength(100, ErrorMessage = "La chaîne {0} doit comporter au moins {2} caractères.", MinimumLength = 6)]
         [DataType(DataType.Password)]

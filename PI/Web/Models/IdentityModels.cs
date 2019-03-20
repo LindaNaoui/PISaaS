@@ -1,14 +1,24 @@
-﻿using System.Data.Entity;
+﻿using System.Collections.Generic;
+using System.Data.Entity;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using PI.Web.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
+using PI.Web.Models;
 
 namespace Web.Models
 {
     // Vous pouvez ajouter des données de profil pour l'utilisateur en ajoutant d'autres propriétés à votre classe ApplicationUser. Pour en savoir plus, consultez https://go.microsoft.com/fwlink/?LinkID=317594.
     public class ApplicationUser : IdentityUser
     {
+        public string DisplayName { get; set; }
+
+        public string Avatar { get; set; }
+
+        public virtual ICollection<Room> Rooms { get; set; }
+
+        public virtual ICollection<Message> Messages { get; set; }
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {
             // Notez qu'authenticationType doit correspondre à l'élément défini dans CookieAuthenticationOptions.AuthenticationType
@@ -20,6 +30,11 @@ namespace Web.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        
+
+        public DbSet<Room> Rooms { get; set; }
+
+        public DbSet<Message> Messages { get; set; }
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
