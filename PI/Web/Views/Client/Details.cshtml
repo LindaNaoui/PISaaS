@@ -1,0 +1,37 @@
+﻿@model Web.Models.ViewModels.ClientViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ClientViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ClientID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClientID)
+        </dd>
+        <dd>
+            @Html.DisplayFor(model => model.NomComplet.prenom)
+        </dd>
+        <dd>
+            @Html.DisplayFor(model => model.NomComplet.nom)
+        </dd>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dd>
+            @Html.DisplayFor(model => model.NumeroTel)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

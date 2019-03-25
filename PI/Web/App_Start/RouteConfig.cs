@@ -13,6 +13,11 @@ namespace Web
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            routes.MapPageRoute(
+          routeName: "Index/",
+          routeUrl: "Index/{rptController}/{rptName}",
+          physicalFile: "~/Views/{rptController}/{rptName}.aspx"
+      );
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",

@@ -51,6 +51,7 @@
     <Compile Include="Entities\Client.cs" />
     <Compile Include="Entities\Document.cs" />
     <Compile Include="Entities\Manager.cs" />
+    <Compile Include="Entities\NomComplet.cs" />
     <Compile Include="Entities\Phase.cs" />
     <Compile Include="Entities\Project.cs" />
     <Compile Include="Entities\Task.cs" />

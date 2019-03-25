@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace Domain.Entities
 {
   public  class Client
-    { public int Clientid { get; set; }
-        public string LastName { get; set; }
-        public string FirstName { get; set; }
+    {
+        public int Clientid { get; set; }
+        public NomComplet NomComplet { get; set; }
         public  string Email { get; set; }
         public  string PhoneNumber { get; set; }
 

@@ -71,8 +71,7 @@ namespace Web.Models
         [EmailAddress]
         [Display(Name = "Courrier électronique")]
         public string Email { get; set; }
-        [Required]
-        public string DisplayName { get; set; }
+       
         public string Avatar { get; set; }
         [Required]
         public string Username { get; set; }

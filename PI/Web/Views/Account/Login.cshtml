@@ -15,7 +15,7 @@
 
             <div class="form-group">
                 <div class="col-md-12">
-                    @Html.PasswordFor(m => m.Email, new { @class = "form-control", @placeholder = "Password" })
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @placeholder = "Email" })
                     @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
                 </div>
             </div>

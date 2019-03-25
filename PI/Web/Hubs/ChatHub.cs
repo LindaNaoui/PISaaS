@@ -56,7 +56,7 @@ namespace PI.Web.Hubs
                 // Build the message
                 MessageViewModel messageViewModel = new MessageViewModel()
                 {
-                    From = sender.DisplayName,
+                    From = sender.Username,
                     Avatar = sender.Avatar,
                     To = "",
                     Content = Regex.Replace(message, @"(?i)<(?!img|a|/a|/img).*?>", String.Empty),
@@ -261,7 +261,7 @@ namespace PI.Web.Hubs
                     _Connections.Add(userViewModel);
                     _ConnectionsMap.Add(IdentityName, Context.ConnectionId);
 
-                    Clients.Caller.getProfileInfo(user.DisplayName, user.Avatar);
+                    Clients.Caller.getProfileInfo(user.UserName, user.Avatar);
                 }
                 catch (Exception ex)
                 {
@@ -296,7 +296,7 @@ namespace PI.Web.Hubs
         public override Task OnReconnected()
         {
             var user = _Connections.Where(u => u.Username == IdentityName).First();
-            Clients.Caller.getProfileInfo(user.DisplayName, user.Avatar);
+            Clients.Caller.getProfileInfo(user.Username, user.Avatar);
 
             return base.OnReconnected();
         }
