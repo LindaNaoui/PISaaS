@@ -1,0 +1,1028 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AWSSDK.RDSDataService</name>
+    </assembly>
+    <members>
+        <member name="T:Amazon.RDSDataService.AmazonRDSDataServiceConfig">
+            <summary>
+            Configuration for accessing Amazon RDSDataService service
+            </summary>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceConfig.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.AmazonRDSDataServiceConfig.RegionEndpointServiceName">
+            <summary>
+            The constant used to lookup in the region hash the endpoint.
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.AmazonRDSDataServiceConfig.ServiceVersion">
+            <summary>
+            Gets the ServiceVersion property.
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.AmazonRDSDataServiceConfig.UserAgent">
+            <summary>
+            Gets the value of UserAgent property.
+            </summary>
+        </member>
+        <member name="T:Amazon.RDSDataService.AmazonRDSDataServiceException">
+            <summary>
+             Common exception for the RDSDataService service.
+             </summary>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceException.#ctor(System.String)">
+            <summary>
+            Construct instance of AmazonRDSDataServiceException
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceException.#ctor(System.String,System.Exception)">
+            <summary>
+            Construct instance of AmazonRDSDataServiceException
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceException.#ctor(System.Exception)">
+            <summary>
+            Construct instance of AmazonRDSDataServiceException
+            </summary>
+            <param name="innerException"></param>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceException.#ctor(System.String,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)">
+            <summary>
+            Construct instance of AmazonRDSDataServiceException
+            </summary>
+            <param name="message"></param>
+            <param name="errorType"></param>
+            <param name="errorCode"></param>
+            <param name="requestId"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceException.#ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)">
+            <summary>
+            Construct instance of AmazonRDSDataServiceException
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+            <param name="errorType"></param>
+            <param name="errorCode"></param>
+            <param name="requestId"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructs a new instance of the AmazonRDSDataServiceException class with serialized data.
+            </summary>
+            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
+            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
+            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
+        </member>
+        <member name="T:Amazon.RDSDataService.Internal.AmazonRDSDataServiceMetadata">
+            <summary>
+            Service metadata for  Amazon RDSDataService service
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Internal.AmazonRDSDataServiceMetadata.ServiceId">
+            <summary>
+            Gets the value of the Service Id.
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Internal.AmazonRDSDataServiceMetadata.OperationNameMapping">
+            <summary>
+            Gets the dictionary that gives mapping of renamed operations
+            </summary>
+        </member>
+        <member name="T:Amazon.RDSDataService.AmazonRDSDataServiceRequest">
+            <summary>
+            Base class for RDSDataService operation requests.
+            </summary>
+        </member>
+        <member name="T:Amazon.RDSDataService.Model.BadRequestException">
+            <summary>
+             RDSDataService exception
+             </summary>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.BadRequestException.#ctor(System.String)">
+            <summary>
+            Constructs a new BadRequestException with the specified error
+            message.
+            </summary>
+            <param name="message">
+            Describes the error encountered.
+            </param>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.BadRequestException.#ctor(System.String,System.Exception)">
+            <summary>
+            Construct instance of BadRequestException
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.BadRequestException.#ctor(System.Exception)">
+            <summary>
+            Construct instance of BadRequestException
+            </summary>
+            <param name="innerException"></param>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.BadRequestException.#ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)">
+            <summary>
+            Construct instance of BadRequestException
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+            <param name="errorType"></param>
+            <param name="errorCode"></param>
+            <param name="requestId"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.BadRequestException.#ctor(System.String,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)">
+            <summary>
+            Construct instance of BadRequestException
+            </summary>
+            <param name="message"></param>
+            <param name="errorType"></param>
+            <param name="errorCode"></param>
+            <param name="requestId"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.BadRequestException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructs a new instance of the BadRequestException class with serialized data.
+            </summary>
+            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
+            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
+            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
+        </member>
+        <member name="T:Amazon.RDSDataService.Model.ColumnMetadata">
+            <summary>
+            Column Metadata
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ColumnMetadata.ArrayBaseColumnType">
+            <summary>
+            Gets and sets the property ArrayBaseColumnType. Homogenous array base SQL type from
+            java.sql.Types.
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ColumnMetadata.IsAutoIncrement">
+            <summary>
+            Gets and sets the property IsAutoIncrement. Whether the designated column is automatically
+            numbered
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ColumnMetadata.IsCaseSensitive">
+            <summary>
+            Gets and sets the property IsCaseSensitive. Whether values in the designated column's
+            case matters
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ColumnMetadata.IsCurrency">
+            <summary>
+            Gets and sets the property IsCurrency. Whether values in the designated column is
+            a cash value
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ColumnMetadata.IsSigned">
+            <summary>
+            Gets and sets the property IsSigned. Whether values in the designated column are signed
+            numbers
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ColumnMetadata.Label">
+            <summary>
+            Gets and sets the property Label. Usually specified by the SQL AS. If not specified,
+            return column name.
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ColumnMetadata.Name">
+            <summary>
+            Gets and sets the property Name. Name of the column.
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ColumnMetadata.Nullable">
+            <summary>
+            Gets and sets the property Nullable. Indicates the nullability of values in the designated
+            column. One of columnNoNulls (0), columnNullable (1), columnNullableUnknown (2)
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ColumnMetadata.Precision">
+            <summary>
+            Gets and sets the property Precision. Get the designated column's specified column
+            size.For numeric data, this is the maximum precision.  For character data, this is
+            the length in characters. For datetime datatypes, this is the length in characters
+            of the String representation (assuming the maximum allowed precision of the fractional
+            seconds component). For binary data, this is the length in bytes.  For the ROWID datatype,
+            this is the length in bytes. 0 is returned for data types where the column size is
+            not applicable.
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ColumnMetadata.Scale">
+            <summary>
+            Gets and sets the property Scale. Designated column's number of digits to right of
+            the decimal point. 0 is returned for data types where the scale is not applicable.
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ColumnMetadata.SchemaName">
+            <summary>
+            Gets and sets the property SchemaName. Designated column's table's schema
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ColumnMetadata.TableName">
+            <summary>
+            Gets and sets the property TableName. Designated column's table name
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ColumnMetadata.Type">
+            <summary>
+            Gets and sets the property Type. SQL type from java.sql.Types.
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ColumnMetadata.TypeName">
+            <summary>
+            Gets and sets the property TypeName. Database-specific type name.
+            </summary>
+        </member>
+        <member name="T:Amazon.RDSDataService.Model.ExecuteSqlRequest">
+            <summary>
+            Container for the parameters to the ExecuteSql operation.
+            Executes any SQL statement on the target database synchronously
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ExecuteSqlRequest.AwsSecretStoreArn">
+            <summary>
+            Gets and sets the property AwsSecretStoreArn. ARN of the db credentials in AWS Secret
+            Store or the friendly secret name
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ExecuteSqlRequest.Database">
+            <summary>
+            Gets and sets the property Database. Target DB name
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ExecuteSqlRequest.DbClusterOrInstanceArn">
+            <summary>
+            Gets and sets the property DbClusterOrInstanceArn. ARN of the target db cluster or
+            instance
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ExecuteSqlRequest.Schema">
+            <summary>
+            Gets and sets the property Schema. Target Schema name
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ExecuteSqlRequest.SqlStatements">
+            <summary>
+            Gets and sets the property SqlStatements. SQL statement(s) to be executed. Statements
+            can be chained by using semicolons
+            </summary>
+        </member>
+        <member name="T:Amazon.RDSDataService.Model.ExecuteSqlResponse">
+            <summary>
+            Execute SQL response
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ExecuteSqlResponse.SqlStatementResults">
+            <summary>
+            Gets and sets the property SqlStatementResults. Results returned by executing the
+            sql statement(s)
+            </summary>
+        </member>
+        <member name="T:Amazon.RDSDataService.Model.ForbiddenException">
+            <summary>
+             RDSDataService exception
+             </summary>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.ForbiddenException.#ctor(System.String)">
+            <summary>
+            Constructs a new ForbiddenException with the specified error
+            message.
+            </summary>
+            <param name="message">
+            Describes the error encountered.
+            </param>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.ForbiddenException.#ctor(System.String,System.Exception)">
+            <summary>
+            Construct instance of ForbiddenException
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.ForbiddenException.#ctor(System.Exception)">
+            <summary>
+            Construct instance of ForbiddenException
+            </summary>
+            <param name="innerException"></param>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.ForbiddenException.#ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)">
+            <summary>
+            Construct instance of ForbiddenException
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+            <param name="errorType"></param>
+            <param name="errorCode"></param>
+            <param name="requestId"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.ForbiddenException.#ctor(System.String,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)">
+            <summary>
+            Construct instance of ForbiddenException
+            </summary>
+            <param name="message"></param>
+            <param name="errorType"></param>
+            <param name="errorCode"></param>
+            <param name="requestId"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.ForbiddenException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructs a new instance of the ForbiddenException class with serialized data.
+            </summary>
+            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
+            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
+            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
+        </member>
+        <member name="T:Amazon.RDSDataService.Model.InternalServerErrorException">
+            <summary>
+             RDSDataService exception
+             </summary>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.InternalServerErrorException.#ctor(System.String)">
+            <summary>
+            Constructs a new InternalServerErrorException with the specified error
+            message.
+            </summary>
+            <param name="message">
+            Describes the error encountered.
+            </param>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.InternalServerErrorException.#ctor(System.String,System.Exception)">
+            <summary>
+            Construct instance of InternalServerErrorException
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.InternalServerErrorException.#ctor(System.Exception)">
+            <summary>
+            Construct instance of InternalServerErrorException
+            </summary>
+            <param name="innerException"></param>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.InternalServerErrorException.#ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)">
+            <summary>
+            Construct instance of InternalServerErrorException
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+            <param name="errorType"></param>
+            <param name="errorCode"></param>
+            <param name="requestId"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.InternalServerErrorException.#ctor(System.String,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)">
+            <summary>
+            Construct instance of InternalServerErrorException
+            </summary>
+            <param name="message"></param>
+            <param name="errorType"></param>
+            <param name="errorCode"></param>
+            <param name="requestId"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.InternalServerErrorException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructs a new instance of the InternalServerErrorException class with serialized data.
+            </summary>
+            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
+            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
+            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
+        </member>
+        <member name="T:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ColumnMetadataUnmarshaller">
+            <summary>
+            Response Unmarshaller for ColumnMetadata Object
+            </summary>  
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ColumnMetadataUnmarshaller.Amazon#Runtime#Internal#Transform#IUnmarshaller{Amazon#RDSDataService#Model#ColumnMetadata,Amazon#Runtime#Internal#Transform#XmlUnmarshallerContext}#Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ColumnMetadataUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ColumnMetadataUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ExecuteSqlRequestMarshaller">
+            <summary>
+            ExecuteSql Request Marshaller
+            </summary>       
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ExecuteSqlRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ExecuteSqlRequestMarshaller.Marshall(Amazon.RDSDataService.Model.ExecuteSqlRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="publicRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ExecuteSqlRequestMarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ExecuteSqlResponseUnmarshaller">
+            <summary>
+            Response Unmarshaller for ExecuteSql operation
+            </summary>  
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ExecuteSqlResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ExecuteSqlResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
+            <summary>
+            Unmarshaller error response to exception.
+            </summary>  
+            <param name="context"></param>
+            <param name="innerException"></param>
+            <param name="statusCode"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ExecuteSqlResponseUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.RDSDataService.Model.Internal.MarshallTransformations.RecordUnmarshaller">
+            <summary>
+            Response Unmarshaller for Record Object
+            </summary>  
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.Internal.MarshallTransformations.RecordUnmarshaller.Amazon#Runtime#Internal#Transform#IUnmarshaller{Amazon#RDSDataService#Model#Record,Amazon#Runtime#Internal#Transform#XmlUnmarshallerContext}#Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.Internal.MarshallTransformations.RecordUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.Internal.MarshallTransformations.RecordUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ResultFrameUnmarshaller">
+            <summary>
+            Response Unmarshaller for ResultFrame Object
+            </summary>  
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ResultFrameUnmarshaller.Amazon#Runtime#Internal#Transform#IUnmarshaller{Amazon#RDSDataService#Model#ResultFrame,Amazon#Runtime#Internal#Transform#XmlUnmarshallerContext}#Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ResultFrameUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ResultFrameUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ResultSetMetadataUnmarshaller">
+            <summary>
+            Response Unmarshaller for ResultSetMetadata Object
+            </summary>  
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ResultSetMetadataUnmarshaller.Amazon#Runtime#Internal#Transform#IUnmarshaller{Amazon#RDSDataService#Model#ResultSetMetadata,Amazon#Runtime#Internal#Transform#XmlUnmarshallerContext}#Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ResultSetMetadataUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ResultSetMetadataUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.RDSDataService.Model.Internal.MarshallTransformations.SqlStatementResultUnmarshaller">
+            <summary>
+            Response Unmarshaller for SqlStatementResult Object
+            </summary>  
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.Internal.MarshallTransformations.SqlStatementResultUnmarshaller.Amazon#Runtime#Internal#Transform#IUnmarshaller{Amazon#RDSDataService#Model#SqlStatementResult,Amazon#Runtime#Internal#Transform#XmlUnmarshallerContext}#Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.Internal.MarshallTransformations.SqlStatementResultUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.Internal.MarshallTransformations.SqlStatementResultUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.RDSDataService.Model.Internal.MarshallTransformations.StructValueUnmarshaller">
+            <summary>
+            Response Unmarshaller for StructValue Object
+            </summary>  
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.Internal.MarshallTransformations.StructValueUnmarshaller.Amazon#Runtime#Internal#Transform#IUnmarshaller{Amazon#RDSDataService#Model#StructValue,Amazon#Runtime#Internal#Transform#XmlUnmarshallerContext}#Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.Internal.MarshallTransformations.StructValueUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.Internal.MarshallTransformations.StructValueUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ValueUnmarshaller">
+            <summary>
+            Response Unmarshaller for Value Object
+            </summary>  
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ValueUnmarshaller.Amazon#Runtime#Internal#Transform#IUnmarshaller{Amazon#RDSDataService#Model#Value,Amazon#Runtime#Internal#Transform#XmlUnmarshallerContext}#Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ValueUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.Internal.MarshallTransformations.ValueUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.RDSDataService.Model.Record">
+            <summary>
+            Row or Record
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.Record.Values">
+            <summary>
+            Gets and sets the property Values. Record
+            </summary>
+        </member>
+        <member name="T:Amazon.RDSDataService.Model.ResultFrame">
+            <summary>
+            Result Frame
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ResultFrame.Records">
+            <summary>
+            Gets and sets the property Records. ResultSet Metadata.
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ResultFrame.ResultSetMetadata">
+            <summary>
+            Gets and sets the property ResultSetMetadata. ResultSet Metadata.
+            </summary>
+        </member>
+        <member name="T:Amazon.RDSDataService.Model.ResultSetMetadata">
+            <summary>
+            List of columns and their types.
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ResultSetMetadata.ColumnCount">
+            <summary>
+            Gets and sets the property ColumnCount. Number of columns
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.ResultSetMetadata.ColumnMetadata">
+            <summary>
+            Gets and sets the property ColumnMetadata. List of columns and their types
+            </summary>
+        </member>
+        <member name="T:Amazon.RDSDataService.Model.ServiceUnavailableErrorException">
+            <summary>
+             RDSDataService exception
+             </summary>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.ServiceUnavailableErrorException.#ctor(System.String)">
+            <summary>
+            Constructs a new ServiceUnavailableErrorException with the specified error
+            message.
+            </summary>
+            <param name="message">
+            Describes the error encountered.
+            </param>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.ServiceUnavailableErrorException.#ctor(System.String,System.Exception)">
+            <summary>
+            Construct instance of ServiceUnavailableErrorException
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.ServiceUnavailableErrorException.#ctor(System.Exception)">
+            <summary>
+            Construct instance of ServiceUnavailableErrorException
+            </summary>
+            <param name="innerException"></param>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.ServiceUnavailableErrorException.#ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)">
+            <summary>
+            Construct instance of ServiceUnavailableErrorException
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+            <param name="errorType"></param>
+            <param name="errorCode"></param>
+            <param name="requestId"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.ServiceUnavailableErrorException.#ctor(System.String,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)">
+            <summary>
+            Construct instance of ServiceUnavailableErrorException
+            </summary>
+            <param name="message"></param>
+            <param name="errorType"></param>
+            <param name="errorCode"></param>
+            <param name="requestId"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:Amazon.RDSDataService.Model.ServiceUnavailableErrorException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructs a new instance of the ServiceUnavailableErrorException class with serialized data.
+            </summary>
+            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
+            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
+            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
+        </member>
+        <member name="T:Amazon.RDSDataService.Model.SqlStatementResult">
+            <summary>
+            SQL statement execution result
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.SqlStatementResult.NumberOfRecordsUpdated">
+            <summary>
+            Gets and sets the property NumberOfRecordsUpdated. Number of rows updated.
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.SqlStatementResult.ResultFrame">
+            <summary>
+            Gets and sets the property ResultFrame. ResultFrame returned by executing the sql
+            statement
+            </summary>
+        </member>
+        <member name="T:Amazon.RDSDataService.Model.StructValue">
+            <summary>
+            User Defined Type
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.StructValue.Attributes">
+            <summary>
+            Gets and sets the property Attributes. Struct or UDT
+            </summary>
+        </member>
+        <member name="T:Amazon.RDSDataService.Model.Value">
+            <summary>
+            Column value
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.Value.ArrayValues">
+            <summary>
+            Gets and sets the property ArrayValues. Arbitrarily nested arrays
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.Value.BigIntValue">
+            <summary>
+            Gets and sets the property BigIntValue. Long value
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.Value.BitValue">
+            <summary>
+            Gets and sets the property BitValue. Bit value
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.Value.BlobValue">
+            <summary>
+            Gets and sets the property BlobValue. Blob value
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.Value.DoubleValue">
+            <summary>
+            Gets and sets the property DoubleValue. Double value
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.Value.IntValue">
+            <summary>
+            Gets and sets the property IntValue. Integer value
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.Value.IsNull">
+            <summary>
+            Gets and sets the property IsNull. Is column null
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.Value.RealValue">
+            <summary>
+            Gets and sets the property RealValue. Float value
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.Value.StringValue">
+            <summary>
+            Gets and sets the property StringValue. String value
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.Model.Value.StructValue">
+            <summary>
+            Gets and sets the property StructValue. Struct or UDT
+            </summary>
+        </member>
+        <member name="T:Amazon.RDSDataService.AmazonRDSDataServiceClient">
+             <summary>
+             Implementation for accessing RDSDataService
+            
+             AWS RDS DataService provides Http Endpoint to query RDS databases.
+             </summary>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceClient.#ctor">
+             <summary>
+             Constructs AmazonRDSDataServiceClient with the credentials loaded from the application's
+             default configuration, and if unsuccessful from the Instance Profile service on an EC2 instance.
+             
+             Example App.config with credentials set. 
+             <code>
+             &lt;?xml version="1.0" encoding="utf-8" ?&gt;
+             &lt;configuration&gt;
+                 &lt;appSettings&gt;
+                     &lt;add key="AWSProfileName" value="AWS Default"/&gt;
+                 &lt;/appSettings&gt;
+             &lt;/configuration&gt;
+             </code>
+            
+             </summary>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceClient.#ctor(Amazon.RegionEndpoint)">
+             <summary>
+             Constructs AmazonRDSDataServiceClient with the credentials loaded from the application's
+             default configuration, and if unsuccessful from the Instance Profile service on an EC2 instance.
+             
+             Example App.config with credentials set. 
+             <code>
+             &lt;?xml version="1.0" encoding="utf-8" ?&gt;
+             &lt;configuration&gt;
+                 &lt;appSettings&gt;
+                     &lt;add key="AWSProfileName" value="AWS Default"/&gt;
+                 &lt;/appSettings&gt;
+             &lt;/configuration&gt;
+             </code>
+            
+             </summary>
+             <param name="region">The region to connect.</param>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceClient.#ctor(Amazon.RDSDataService.AmazonRDSDataServiceConfig)">
+             <summary>
+             Constructs AmazonRDSDataServiceClient with the credentials loaded from the application's
+             default configuration, and if unsuccessful from the Instance Profile service on an EC2 instance.
+             
+             Example App.config with credentials set. 
+             <code>
+             &lt;?xml version="1.0" encoding="utf-8" ?&gt;
+             &lt;configuration&gt;
+                 &lt;appSettings&gt;
+                     &lt;add key="AWSProfileName" value="AWS Default"/&gt;
+                 &lt;/appSettings&gt;
+             &lt;/configuration&gt;
+             </code>
+            
+             </summary>
+             <param name="config">The AmazonRDSDataServiceClient Configuration Object</param>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceClient.#ctor(Amazon.Runtime.AWSCredentials)">
+            <summary>
+            Constructs AmazonRDSDataServiceClient with AWS Credentials
+            </summary>
+            <param name="credentials">AWS Credentials</param>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceClient.#ctor(Amazon.Runtime.AWSCredentials,Amazon.RegionEndpoint)">
+            <summary>
+            Constructs AmazonRDSDataServiceClient with AWS Credentials
+            </summary>
+            <param name="credentials">AWS Credentials</param>
+            <param name="region">The region to connect.</param>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceClient.#ctor(Amazon.Runtime.AWSCredentials,Amazon.RDSDataService.AmazonRDSDataServiceConfig)">
+            <summary>
+            Constructs AmazonRDSDataServiceClient with AWS Credentials and an
+            AmazonRDSDataServiceClient Configuration object.
+            </summary>
+            <param name="credentials">AWS Credentials</param>
+            <param name="clientConfig">The AmazonRDSDataServiceClient Configuration Object</param>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceClient.#ctor(System.String,System.String)">
+            <summary>
+            Constructs AmazonRDSDataServiceClient with AWS Access Key ID and AWS Secret Key
+            </summary>
+            <param name="awsAccessKeyId">AWS Access Key ID</param>
+            <param name="awsSecretAccessKey">AWS Secret Access Key</param>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceClient.#ctor(System.String,System.String,Amazon.RegionEndpoint)">
+            <summary>
+            Constructs AmazonRDSDataServiceClient with AWS Access Key ID and AWS Secret Key
+            </summary>
+            <param name="awsAccessKeyId">AWS Access Key ID</param>
+            <param name="awsSecretAccessKey">AWS Secret Access Key</param>
+            <param name="region">The region to connect.</param>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceClient.#ctor(System.String,System.String,Amazon.RDSDataService.AmazonRDSDataServiceConfig)">
+            <summary>
+            Constructs AmazonRDSDataServiceClient with AWS Access Key ID, AWS Secret Key and an
+            AmazonRDSDataServiceClient Configuration object. 
+            </summary>
+            <param name="awsAccessKeyId">AWS Access Key ID</param>
+            <param name="awsSecretAccessKey">AWS Secret Access Key</param>
+            <param name="clientConfig">The AmazonRDSDataServiceClient Configuration Object</param>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceClient.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Constructs AmazonRDSDataServiceClient with AWS Access Key ID and AWS Secret Key
+            </summary>
+            <param name="awsAccessKeyId">AWS Access Key ID</param>
+            <param name="awsSecretAccessKey">AWS Secret Access Key</param>
+            <param name="awsSessionToken">AWS Session Token</param>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceClient.#ctor(System.String,System.String,System.String,Amazon.RegionEndpoint)">
+            <summary>
+            Constructs AmazonRDSDataServiceClient with AWS Access Key ID and AWS Secret Key
+            </summary>
+            <param name="awsAccessKeyId">AWS Access Key ID</param>
+            <param name="awsSecretAccessKey">AWS Secret Access Key</param>
+            <param name="awsSessionToken">AWS Session Token</param>
+            <param name="region">The region to connect.</param>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceClient.#ctor(System.String,System.String,System.String,Amazon.RDSDataService.AmazonRDSDataServiceConfig)">
+            <summary>
+            Constructs AmazonRDSDataServiceClient with AWS Access Key ID, AWS Secret Key and an
+            AmazonRDSDataServiceClient Configuration object. 
+            </summary>
+            <param name="awsAccessKeyId">AWS Access Key ID</param>
+            <param name="awsSecretAccessKey">AWS Secret Access Key</param>
+            <param name="awsSessionToken">AWS Session Token</param>
+            <param name="clientConfig">The AmazonRDSDataServiceClient Configuration Object</param>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceClient.CreateSigner">
+            <summary>
+            Creates the signer for the service.
+            </summary>
+        </member>
+        <member name="P:Amazon.RDSDataService.AmazonRDSDataServiceClient.ServiceMetadata">
+            <summary>
+            Capture metadata for the service.
+            </summary>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceClient.Dispose(System.Boolean)">
+            <summary>
+            Disposes the service client.
+            </summary>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceClient.ExecuteSql(Amazon.RDSDataService.Model.ExecuteSqlRequest)">
+            <summary>
+            Executes any SQL statement on the target database synchronously
+            </summary>
+            <param name="request">Container for the necessary parameters to execute the ExecuteSql service method.</param>
+            
+            <returns>The response from the ExecuteSql service method, as returned by RDSDataService.</returns>
+            <exception cref="T:Amazon.RDSDataService.Model.BadRequestException">
+            Invalid Request exception
+            </exception>
+            <exception cref="T:Amazon.RDSDataService.Model.ForbiddenException">
+            Access denied exception
+            </exception>
+            <exception cref="T:Amazon.RDSDataService.Model.InternalServerErrorException">
+            Internal service error
+            </exception>
+            <exception cref="T:Amazon.RDSDataService.Model.ServiceUnavailableErrorException">
+            Internal service unavailable error
+            </exception>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/rds-data-2018-08-01/ExecuteSql">REST API Reference for ExecuteSql Operation</seealso>
+        </member>
+        <member name="M:Amazon.RDSDataService.AmazonRDSDataServiceClient.ExecuteSqlAsync(Amazon.RDSDataService.Model.ExecuteSqlRequest,System.Threading.CancellationToken)">
+            <summary>
+            Initiates the asynchronous execution of the ExecuteSql operation.
+            </summary>
+            
+            <param name="request">Container for the necessary parameters to execute the ExecuteSql operation.</param>
+            <param name="cancellationToken">
+                A cancellation token that can be used by other objects or threads to receive notice of cancellation.
+            </param>
+            <returns>The task object representing the asynchronous operation.</returns>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/rds-data-2018-08-01/ExecuteSql">REST API Reference for ExecuteSql Operation</seealso>
+        </member>
+        <member name="T:Amazon.RDSDataService.IAmazonRDSDataService">
+             <summary>
+             Interface for accessing RDSDataService
+            
+             AWS RDS DataService provides Http Endpoint to query RDS databases.
+             </summary>
+        </member>
+        <member name="M:Amazon.RDSDataService.IAmazonRDSDataService.ExecuteSql(Amazon.RDSDataService.Model.ExecuteSqlRequest)">
+            <summary>
+            Executes any SQL statement on the target database synchronously
+            </summary>
+            <param name="request">Container for the necessary parameters to execute the ExecuteSql service method.</param>
+            
+            <returns>The response from the ExecuteSql service method, as returned by RDSDataService.</returns>
+            <exception cref="T:Amazon.RDSDataService.Model.BadRequestException">
+            Invalid Request exception
+            </exception>
+            <exception cref="T:Amazon.RDSDataService.Model.ForbiddenException">
+            Access denied exception
+            </exception>
+            <exception cref="T:Amazon.RDSDataService.Model.InternalServerErrorException">
+            Internal service error
+            </exception>
+            <exception cref="T:Amazon.RDSDataService.Model.ServiceUnavailableErrorException">
+            Internal service unavailable error
+            </exception>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/rds-data-2018-08-01/ExecuteSql">REST API Reference for ExecuteSql Operation</seealso>
+        </member>
+        <member name="M:Amazon.RDSDataService.IAmazonRDSDataService.ExecuteSqlAsync(Amazon.RDSDataService.Model.ExecuteSqlRequest,System.Threading.CancellationToken)">
+            <summary>
+            Initiates the asynchronous execution of the ExecuteSql operation.
+            </summary>
+            
+            <param name="request">Container for the necessary parameters to execute the ExecuteSql operation.</param>
+            <param name="cancellationToken">
+                A cancellation token that can be used by other objects or threads to receive notice of cancellation.
+            </param>
+            <returns>The task object representing the asynchronous operation.</returns>
+            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/rds-data-2018-08-01/ExecuteSql">REST API Reference for ExecuteSql Operation</seealso>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,155 @@
+C:\Users\Mx14\source\repos\PI\ServicePattern\bin\Debug\ServicePattern.dll.config
+C:\Users\Mx14\source\repos\PI\ServicePattern\bin\Debug\ServicePattern.dll
+C:\Users\Mx14\source\repos\PI\ServicePattern\bin\Debug\ServicePattern.pdb
+C:\Users\Mx14\source\repos\PI\ServicePattern\bin\Debug\Data.dll
+C:\Users\Mx14\source\repos\PI\ServicePattern\bin\Debug\EntityFramework.dll
+C:\Users\Mx14\source\repos\PI\ServicePattern\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mx14\source\repos\PI\ServicePattern\bin\Debug\Data.pdb
+C:\Users\Mx14\source\repos\PI\ServicePattern\bin\Debug\Data.dll.config
+C:\Users\Mx14\source\repos\PI\ServicePattern\bin\Debug\EntityFramework.xml
+C:\Users\Mx14\source\repos\PI\ServicePattern\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mx14\source\repos\PI\ServicePattern\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\Mx14\source\repos\PI\ServicePattern\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\Mx14\source\repos\PI\ServicePattern\obj\Debug\ServicePattern.csprojAssemblyReference.cache
+C:\Users\Mx14\source\repos\PI\ServicePattern\obj\Debug\ServicePattern.csproj.CoreCompileInputs.cache
+C:\Users\Mx14\source\repos\PI\ServicePattern\obj\Debug\ServicePattern.csproj.CopyComplete
+C:\Users\Mx14\source\repos\PI\ServicePattern\obj\Debug\ServicePattern.dll
+C:\Users\Mx14\source\repos\PI\ServicePattern\obj\Debug\ServicePattern.pdb
+C:\PI\ServicePattern\bin\Debug\ServicePattern.dll.config
+C:\PI\ServicePattern\bin\Debug\ServicePattern.dll
+C:\PI\ServicePattern\bin\Debug\ServicePattern.pdb
+C:\PI\ServicePattern\bin\Debug\Data.dll
+C:\PI\ServicePattern\bin\Debug\EntityFramework.dll
+C:\PI\ServicePattern\bin\Debug\EntityFramework.SqlServer.dll
+C:\PI\ServicePattern\bin\Debug\Domain.dll
+C:\PI\ServicePattern\bin\Debug\Data.pdb
+C:\PI\ServicePattern\bin\Debug\Data.dll.config
+C:\PI\ServicePattern\bin\Debug\EntityFramework.xml
+C:\PI\ServicePattern\bin\Debug\EntityFramework.SqlServer.xml
+C:\PI\ServicePattern\bin\Debug\Domain.pdb
+C:\PI\ServicePattern\bin\Debug\Domain.dll.config
+C:\PI\ServicePattern\bin\Debug\fr\EntityFramework.resources.dll
+C:\PI\ServicePattern\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+C:\PI\ServicePattern\obj\Debug\ServicePattern.csprojAssemblyReference.cache
+C:\PI\ServicePattern\obj\Debug\ServicePattern.csproj.CoreCompileInputs.cache
+C:\PI\ServicePattern\obj\Debug\ServicePattern.csproj.CopyComplete
+C:\PI\ServicePattern\obj\Debug\ServicePattern.dll
+C:\PI\ServicePattern\obj\Debug\ServicePattern.pdb
+C:\Users\roua\Desktop\PI\ServicePattern\bin\Debug\ServicePattern.dll.config
+C:\Users\roua\Desktop\PI\ServicePattern\bin\Debug\ServicePattern.dll
+C:\Users\roua\Desktop\PI\ServicePattern\bin\Debug\ServicePattern.pdb
+C:\Users\roua\Desktop\PI\ServicePattern\bin\Debug\Data.dll
+C:\Users\roua\Desktop\PI\ServicePattern\bin\Debug\EntityFramework.dll
+C:\Users\roua\Desktop\PI\ServicePattern\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\roua\Desktop\PI\ServicePattern\bin\Debug\Domain.dll
+C:\Users\roua\Desktop\PI\ServicePattern\bin\Debug\Data.pdb
+C:\Users\roua\Desktop\PI\ServicePattern\bin\Debug\Data.dll.config
+C:\Users\roua\Desktop\PI\ServicePattern\bin\Debug\EntityFramework.xml
+C:\Users\roua\Desktop\PI\ServicePattern\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\roua\Desktop\PI\ServicePattern\bin\Debug\Domain.pdb
+C:\Users\roua\Desktop\PI\ServicePattern\bin\Debug\Domain.dll.config
+C:\Users\roua\Desktop\PI\ServicePattern\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\roua\Desktop\PI\ServicePattern\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\roua\Desktop\PI\ServicePattern\obj\Debug\ServicePattern.csprojAssemblyReference.cache
+C:\Users\roua\Desktop\PI\ServicePattern\obj\Debug\ServicePattern.csproj.CoreCompileInputs.cache
+C:\Users\roua\Desktop\PI\ServicePattern\obj\Debug\ServicePattern.csproj.CopyComplete
+C:\Users\roua\Desktop\PI\ServicePattern\obj\Debug\ServicePattern.dll
+C:\Users\roua\Desktop\PI\ServicePattern\obj\Debug\ServicePattern.pdb
+C:\Users\Alaa\Desktop\PI\PI\ServicePattern\bin\Debug\ServicePattern.dll.config
+C:\Users\Alaa\Desktop\PI\PI\ServicePattern\bin\Debug\ServicePattern.dll
+C:\Users\Alaa\Desktop\PI\PI\ServicePattern\bin\Debug\ServicePattern.pdb
+C:\Users\Alaa\Desktop\PI\PI\ServicePattern\bin\Debug\Data.dll
+C:\Users\Alaa\Desktop\PI\PI\ServicePattern\bin\Debug\EntityFramework.dll
+C:\Users\Alaa\Desktop\PI\PI\ServicePattern\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alaa\Desktop\PI\PI\ServicePattern\bin\Debug\Domain.dll
+C:\Users\Alaa\Desktop\PI\PI\ServicePattern\bin\Debug\Data.pdb
+C:\Users\Alaa\Desktop\PI\PI\ServicePattern\bin\Debug\Data.dll.config
+C:\Users\Alaa\Desktop\PI\PI\ServicePattern\bin\Debug\EntityFramework.xml
+C:\Users\Alaa\Desktop\PI\PI\ServicePattern\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alaa\Desktop\PI\PI\ServicePattern\bin\Debug\Domain.pdb
+C:\Users\Alaa\Desktop\PI\PI\ServicePattern\bin\Debug\Domain.dll.config
+C:\Users\Alaa\Desktop\PI\PI\ServicePattern\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\Alaa\Desktop\PI\PI\ServicePattern\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\Alaa\Desktop\PI\PI\ServicePattern\obj\Debug\ServicePattern.csprojAssemblyReference.cache
+C:\Users\Alaa\Desktop\PI\PI\ServicePattern\obj\Debug\ServicePattern.csproj.CoreCompileInputs.cache
+C:\Users\Alaa\Desktop\PI\PI\ServicePattern\obj\Debug\ServicePattern.csproj.CopyComplete
+C:\Users\Alaa\Desktop\PI\PI\ServicePattern\obj\Debug\ServicePattern.dll
+C:\Users\Alaa\Desktop\PI\PI\ServicePattern\obj\Debug\ServicePattern.pdb
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\bin\Debug\ServicePattern.dll.config
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\bin\Debug\ServicePattern.dll
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\bin\Debug\ServicePattern.pdb
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\bin\Debug\Data.dll
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\bin\Debug\EntityFramework.dll
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\bin\Debug\Domain.dll
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\bin\Debug\Data.pdb
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\bin\Debug\Data.dll.config
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\bin\Debug\EntityFramework.xml
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\bin\Debug\Domain.pdb
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\bin\Debug\Domain.dll.config
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\obj\Debug\ServicePattern.csprojAssemblyReference.cache
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\obj\Debug\ServicePattern.csproj.CoreCompileInputs.cache
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\obj\Debug\ServicePattern.csproj.CopyComplete
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\obj\Debug\ServicePattern.dll
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\obj\Debug\ServicePattern.pdb
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\bin\Debug\fr\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Alaa\Desktop\pi1.5\ServicePattern\bin\Debug\fr\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\bin\Debug\ServicePattern.dll.config
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\bin\Debug\ServicePattern.dll
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\bin\Debug\ServicePattern.pdb
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\bin\Debug\Data.dll
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\bin\Debug\EntityFramework.dll
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\bin\Debug\Domain.dll
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\bin\Debug\Data.pdb
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\bin\Debug\Data.dll.config
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\bin\Debug\EntityFramework.xml
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\bin\Debug\Domain.pdb
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\bin\Debug\Domain.dll.config
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\bin\Debug\fr\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\bin\Debug\fr\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\obj\Debug\ServicePattern.csprojAssemblyReference.cache
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\obj\Debug\ServicePattern.csproj.CoreCompileInputs.cache
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\obj\Debug\ServicePattern.csproj.CopyComplete
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\obj\Debug\ServicePattern.dll
+C:\Users\telesto\Downloads\pi1.56\pi1.56\ServicePattern\obj\Debug\ServicePattern.pdb
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\bin\Debug\ServicePattern.dll.config
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\bin\Debug\ServicePattern.dll
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\bin\Debug\ServicePattern.pdb
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\bin\Debug\Data.dll
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\bin\Debug\EntityFramework.dll
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\bin\Debug\Domain.dll
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\bin\Debug\Data.pdb
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\bin\Debug\Data.dll.config
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\bin\Debug\EntityFramework.xml
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\bin\Debug\Domain.pdb
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\bin\Debug\Domain.dll.config
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\bin\Debug\fr\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\bin\Debug\fr\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\obj\Debug\ServicePattern.csprojAssemblyReference.cache
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\obj\Debug\ServicePattern.csproj.CoreCompileInputs.cache
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\obj\Debug\ServicePattern.csproj.CopyComplete
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\obj\Debug\ServicePattern.dll
+C:\Users\Lynda\Downloads\rouaalahouss (1)\pi1.56\pi1.56\ServicePattern\obj\Debug\ServicePattern.pdb
